@@ -1,0 +1,7 @@
+runtime: nodejs18 # or another supported version
+service: vehicletaxes-cru-be
+
+env_variables:
+  BUCKET_NAME: "be-vehicletaxes-bucket"
+  SECRET_KEY: "vehicletaxes"
+  DATABASE_URL: "mysql://root@34.27.52.49:3306/vehicletaxes?schema=public"
